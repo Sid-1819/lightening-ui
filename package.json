@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "my-vercel-project",
   "private": true,
   "scripts": {
     "build": "turbo build",
