@@ -18,7 +18,7 @@ export default defineConfig({
 	output: {
 		// Define the output directory for your build files (change 'build' if needed)
 		path: `${__dirname}/build`,
-		filename: '[name].bundle.js',
+		filename: 'main.bundle.js',
 		publicPath: '/build/',  // Adjust for public URL path if needed
 	},
 	module: {
