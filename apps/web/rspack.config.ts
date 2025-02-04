@@ -15,6 +15,12 @@ export default defineConfig({
 	resolve: {
 		extensions: ["...", ".ts", ".tsx", ".jsx"]
 	},
+	output: {
+		// Define the output directory for your build files (change 'build' if needed)
+		path: `${__dirname}/build`,
+		filename: '[name].bundle.js',
+		publicPath: '/build/',  // Adjust for public URL path if needed
+	},
 	module: {
 		rules: [
 			{
