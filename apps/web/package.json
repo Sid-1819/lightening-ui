@@ -9,7 +9,9 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
     "@tailwindcss/postcss": "^4.0.3",
+    "dotenv": "^16.4.7",
     "postcss": "^8.5.1",
     "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
